@@ -1,0 +1,20 @@
+Definir como vai ser a DSL
+
+Implementar
+
+Definir como vou ensinar (o que vou fazer primeiro, etc)
+
+Implementaçoes:
+1
+  Simples, sem classe
+2
+  Com a classe
+  topping vira toppings
+
+3
+  Methodos fazendo a mesma coisa, usar o method_missing
+
+4
+  method chaining
+Dynamic methods method_missing pra observacoes
+Too many ingredients, raise exception
