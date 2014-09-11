@@ -9,8 +9,8 @@ Implementaçoes:
   Simples, sem classe
 2
   Com a classe
-  topping vira toppings
-
+  topping vira toppings (mais de um topping)
+  Too many toppings, raise exception
 3
   Methodos fazendo a mesma coisa, usar o method_missing
 
@@ -19,4 +19,4 @@ Implementaçoes:
 
 5
   Dynamic methods method_missing pra observacoes
-  Too many ingredients, raise exception
+  

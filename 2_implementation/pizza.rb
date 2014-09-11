@@ -18,6 +18,7 @@ class Pizza
   end
 
   def add_toppings *args
+    raise "Too many toppings man!" if args.size > 4
     @toppings = args
   end
 
