@@ -5,20 +5,13 @@ class Pizza
     @name = name
   end
 
-  def add_vegetable name
-    @vegetable = name
-  end
-
-  def add_sauce name
-    @sauce = name
-  end
-
-  def add_cheese name
-    @cheese = name
-  end
-
   def add_toppings *args
     @toppings = args
+  end
+
+  def method_missing method_name, *args
+    method_name = method_name.to_s.split('add_')[1]
+    self.send(method_name + "=", args[0])
   end
 
   def set_price name
