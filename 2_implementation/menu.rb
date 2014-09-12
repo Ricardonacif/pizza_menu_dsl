@@ -12,7 +12,7 @@ class Menu
     @@pizzas
   end
 
-  def self.last_pizza
-    @@pizzas.last
+  def self.print_last_pizza
+    puts @@pizzas.last.inspect
   end
 end
