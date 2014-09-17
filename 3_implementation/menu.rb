@@ -7,12 +7,12 @@ class Menu
     @@pizzas << pizza
   end
 
-
   def self.pizzas
     @@pizzas
   end
 
-  def self.last_pizza
-    @@pizzas.last
+  def self.print
+    @@pizzas.each(&:to_s)
+    nil
   end
 end

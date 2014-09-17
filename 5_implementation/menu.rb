@@ -8,7 +8,6 @@ class Menu
     pizza
   end
 
-
   def self.pizzas
     @@pizzas
   end
@@ -17,5 +16,4 @@ class Menu
     @@pizzas.each(&:to_s)
     nil
   end
-
 end

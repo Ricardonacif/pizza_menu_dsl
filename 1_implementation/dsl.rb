@@ -16,7 +16,7 @@ def add_topping name
   @pizza.topping = name
 end
 
-def price name
+def set_price name
   @pizza.price = name
 end
 
@@ -30,5 +30,5 @@ create_pizza "Mussarela" do
   add_sauce 'barbecue'
   add_cheese 'cheddar'
   add_topping 'chicken'
-  price 32.33
+  set_price 32.33
 end

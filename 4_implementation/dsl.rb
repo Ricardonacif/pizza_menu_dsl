@@ -9,4 +9,4 @@ load 'menu.rb'
 #   set_price 32.33
 # end
 
-Menu.add_pizza('Peperoni').add_vegetable('tomatoes').add_sauce('curry')
+Menu.add_pizza('Peperoni').add_vegetable('tomatoes').add_sauce('curry').add_toppings('bacon', 'cucumber').set_price(30)

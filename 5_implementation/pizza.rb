@@ -41,5 +41,4 @@ class Pizza
     return self
   end
 
-
 end
