@@ -4,6 +4,7 @@ Pizza Menu DSL
 Implementations of a Pizza Menu DSL for an ACTalk. 
 
 There are 5 different implementations, the best version is the number 5 and here are the difference between them:
+
 1. Initial DSL implemented on the global namespace
  
 2. 
