@@ -18,4 +18,4 @@ There are 5 different implementations, the best version is the number 5 and here
 
 ##Talk
 
-The content of the talk will be available soon.
+The slides of the talk are available at http://ricardonacif.github.io/ruby_dsl_talk

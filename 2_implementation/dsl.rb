@@ -8,3 +8,4 @@ Menu.add_pizza "Mussarela" do
   add_toppings 'chicken', 'peperoni', 'Bacon', 'Eggs'
   set_price 32.33
 end
+
