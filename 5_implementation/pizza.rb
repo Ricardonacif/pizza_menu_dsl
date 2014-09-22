@@ -1,5 +1,5 @@
 class Pizza
-  attr_accessor :vegetable, :cheese, :sauce, :toppings, :price, :observations, :name
+  attr_accessor :name, :vegetable, :cheese, :sauce, :toppings, :price, :observations, :name
 
   def initialize name
     @observations = []
@@ -16,7 +16,7 @@ class Pizza
     self
   end
 
-  def to_s
+  def print
     puts "#{name} - #{price}"
     puts " --------------- "
     puts "Ingredients:"

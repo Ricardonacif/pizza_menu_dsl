@@ -13,7 +13,7 @@ class Menu
   end
 
   def self.print
-    @@pizzas.each(&:to_s)
+    @@pizzas.each(&:print)
     nil
   end
 end

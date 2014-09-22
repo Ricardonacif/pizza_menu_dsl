@@ -14,7 +14,7 @@ There are 5 different implementations, the best version is the number 5 and here
 
 3. method_missing implemented to be more DRY
 4. Method Chaining made possible
-5. Added observations
+5. Added observations methods and print method
 
 ##Talk
 

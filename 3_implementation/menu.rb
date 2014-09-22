@@ -11,8 +11,4 @@ class Menu
     @@pizzas
   end
 
-  def self.print
-    @@pizzas.each(&:to_s)
-    nil
-  end
 end

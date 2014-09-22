@@ -1,4 +1,6 @@
-Pizza = Struct.new(:vegetable, :sauce, :cheese, :sauce, :topping, :price)
+Pizza = Struct.new(:name, :vegetable, :sauce, :cheese, :sauce, :topping, :price)
+
+@pizza = Pizza.new
 
 def add_vegetable name
   @pizza.vegetable = name
@@ -21,7 +23,7 @@ def set_price name
 end
 
 def create_pizza name
-  @pizza = Pizza.new
+  @pizza = Pizza.new(name)
   yield if block_given?
 end
 
