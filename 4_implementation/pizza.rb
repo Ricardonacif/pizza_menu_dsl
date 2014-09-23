@@ -10,15 +10,10 @@ class Pizza
     self
   end
 
-  def set_price name
-    @price = name
-    self
-  end
-
   private
 
   def method_missing method_name, *args
-    method_name = method_name.to_s.split('add_')[1]
+    method_name = method_name.to_s.split(/^add_|set_/)[1]
     self.send(method_name + "=", args[0])
     self
   end

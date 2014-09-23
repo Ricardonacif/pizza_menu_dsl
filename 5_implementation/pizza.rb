@@ -11,11 +11,6 @@ class Pizza
     self
   end
 
-  def set_price name
-    @price = name
-    self
-  end
-
   def print
     puts "#{name} - #{price}"
     puts " --------------- "
@@ -32,8 +27,8 @@ class Pizza
 
   def method_missing method_name, *args
     method_name = method_name.to_s
-    if method_name =~ /^add_/
-      method_name = method_name.split('add_')[1]
+    if method_name =~ /^add_|set_/
+      method_name = method_name.split(/^add_|set_/)[1]
       self.send(method_name + "=", args[0])
     else
       @observations << method_name.gsub(/_/, ' ').capitalize
